@@ -7,7 +7,7 @@ Package.describe({
 
 Package.onUse(function(api) {
     api.versionsFrom("METEOR@0.9.0");
-    api.use(["keen-settings", "iron:router@0.9.4"], "client");
+    api.use(["keen-settings@0.2.1", "iron:router@0.9.4"], "client");
 
     api.addFiles([ "lib/ga.js", "lib/router.js" ], "client");
 });
